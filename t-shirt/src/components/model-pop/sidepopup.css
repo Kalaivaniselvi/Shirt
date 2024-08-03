@@ -1,0 +1,21 @@
+.side-popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    /* border: 2px solid black; */
+    height: 100vh;
+    background: white; /* semi-transparent background */
+    z-index: 1050; /* Bootstrap modal z-index */
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .side-popup-dialog {
+    margin: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .side-popup .modal-content {
+    border-radius: 0;
+  }
